@@ -13,16 +13,16 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "Feedac CoreRedux",
-            targets: ["Feedac CoreRedux"]),
+            name: "Feedac-CoreRedux",
+            targets: ["Feedac-CoreRedux"]),
     ],
     targets: [
         .target(
-            name: "Feedac CoreRedux",
+            name: "Feedac-CoreRedux",
             dependencies: []),
         .testTarget(
-            name: "Feedac CoreReduxTests",
-            dependencies: ["Feedac CoreRedux"]),
+            name: "Feedac-CoreReduxTests",
+            dependencies: ["Feedac-CoreRedux"]),
     ],
     swiftLanguageVersions: [
         .version("5")
